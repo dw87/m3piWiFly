@@ -78,9 +78,9 @@ With the m3pi build, the WiFly and the mbed installed, all that is needed is for
 
 You can download the m3piWiFly.bin configuration from here, save it on the mbed's flash memory, and when you unplug the mbed and turn on the m3pi, it will run that program.  
 
-On the mbed will be a HTML file which will let you create an account with [mbed.org](http://mbed.org) to use their online compiler.  You can then write your own programs to the mbed in C, and compile them into the .bin files to put on the mbed.
+On the mbed will be a HTML file which will let you create an account with [mbed.org](http://mbed.org) to use their online compiler.  You can then write your own programs to the mbed in C++, and compile them into the .bin files to put on the mbed.
 
-I have included my m3piWiFly.c file here, so you can grab the code and have a look.  It's currently basic, and only offers proportional control forwards and backwards in a straight line, as well as spinning on the spot.  As I develop this to provide better control, I will update the files here.  
+I have included my m3piWiFly.cpp file here, so you can grab the code and have a look.  It's currently basic, and only offers proportional control forwards and backwards in a straight line, as well as spinning on the spot.  As I develop this to provide better control, I will update the files here.  
 
 Remember, there should only be one .bin file on the mbed at once.  When the mbed is given power it will run the .bin file in memory.  If there is more than one, it could cause problems.  
 
